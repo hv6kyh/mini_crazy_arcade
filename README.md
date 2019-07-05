@@ -1,4 +1,4 @@
-# mini_crazy_arcade
+
 This is mini games created using C language
 
 
@@ -27,7 +27,7 @@ The number of monsters can be changed by changing the MONSTERS in the header fil
 Dependency)
 Put the wav file in the desired location (by default it is located on drive C)
 
-How to use Markdown? 
+mini_crazy_arcade
 ============ 
 Markdown 
 - 
