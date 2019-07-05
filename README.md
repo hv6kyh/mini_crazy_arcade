@@ -6,6 +6,9 @@ mini_crazy_arcade
 
 This is mini games created using C language
 
+![screenshot](./screenshot.gif)
+
+
 
 콘솔창에서 동작하는 게임입니다.
 게임방식은 '크레이지 아케이드'와 동일.
