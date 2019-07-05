@@ -33,23 +33,3 @@ Markdown
 - 
 can be used as follows. 
 
-### Blackquotes 
->Blackquotes1 
->>Sub Blackquotes2 
-
->###header + blackquotes 
-
-
-###Code representation method 
------ 
-“`var x = 0“` 
-
-var foo = “bar” 
-<html> </html> 
-
-###List representation method 
-+ plus 
-* star 
-- hyphen 
-
-
