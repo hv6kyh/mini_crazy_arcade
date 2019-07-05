@@ -52,16 +52,4 @@ var foo = “bar”
 * star 
 - hyphen 
 
-###Numeric list representation method 
-1. num1 
-1. num2 
 
-### Hyperlink 
-[blog](blog.naver.com/tpgns8488) 
-
-First Header | Second Header 
------------- | ------------- 
-Content from cell 1 | Content from cell 2 
-Content in the first column | Content in the second column 
-
-@tpgns8488 :+1: How to use markdown? :tophat: 
