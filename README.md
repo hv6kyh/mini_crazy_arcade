@@ -29,7 +29,7 @@ Put the wav file in the desired location (by default it is located on drive C)
 
 mini_crazy_arcade
 ============ 
-Markdown 
+소개
 - 
 can be used as follows. 
 
