@@ -408,6 +408,9 @@ void water_attack(int t_x, int t_y) {
 
 		}
 
+		/*if (is_edge(att_x, att_y + S_C) == true)
+			att_sw = false;*/
+
 		if (att_sw == true) {
 			att_y += S_C;
 			show_water(att_x, att_y);
@@ -441,7 +444,7 @@ void water_attack(int t_x, int t_y) {
 		hide_water(att_x, att_y);
 		MAP[att_y][att_x] = 0;
 
-		for (i = 1; i <= S_C; i++) {
+		for (i = 1; i <= H_C; i++) {
 
 			if (is_edge(att_x - i, att_y) == true)
 				att_sw = false;
@@ -457,7 +460,7 @@ void water_attack(int t_x, int t_y) {
 		else
 			att_sw = true;
 
-		for (i = 1; i <= S_C; i++) {
+		for (i = 1; i <= H_C; i++) {
 
 			if (is_edge(att_x + i, att_y) == true)
 				att_sw = false;
@@ -473,7 +476,7 @@ void water_attack(int t_x, int t_y) {
 		else
 			att_sw = true;
 
-		for (i = 1; i <= S_C; i++) {
+		for (i = 1; i <= H_C; i++) {
 
 			if (is_edge(att_x, att_y - i) == true)
 				att_sw = false;
@@ -489,7 +492,7 @@ void water_attack(int t_x, int t_y) {
 		else
 			att_sw = true;
 
-		for (i = 1; i <= S_C; i++) {
+		for (i = 1; i <= H_C; i++) {
 
 			if (is_edge(att_x, att_y + i) == true)
 				att_sw = false;
