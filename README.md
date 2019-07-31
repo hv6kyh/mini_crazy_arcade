@@ -7,5 +7,5 @@ C
 ******
 
 온라인 게임 '크레이지 아케이드'의 미니버전
-![image1](/image1.jpeg)
+![image1](images/image1.jpeg)
 
